@@ -8,10 +8,6 @@ def home():
     return render_template("index.html", content="Testing")
 
 
-# @app.route("/")
-# def index():
-#     newsapi = NewsApiClient(api_key="3ca69fda5fa74125b35d01d178d09d42")
-
 
 
 if __name__ == "__main__":
