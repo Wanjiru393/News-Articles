@@ -3,11 +3,10 @@
 
 {% import 'macros.html' as macro%}
 
-{% block style %}
-{{ super() }}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{{url_for('static',filename='CSS/index.css')}}" type="text/css">
-{% endblock %}
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='CSS/index.css')}}" type="text/css">
+
 <!-- Content block -->
 {% block content %}
 <div class="row">
