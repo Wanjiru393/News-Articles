@@ -1,4 +1,4 @@
-apturl
+
 autopep8==1.6.0
 bcrypt==3.1.7
 blinker==1.4
