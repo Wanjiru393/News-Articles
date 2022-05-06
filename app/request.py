@@ -6,6 +6,7 @@ from datetime import datetime
 
 api_Key = None
 base_url = None
+
 top_articles_url = None
 keyword_url = None
 breaking_news_url = None
@@ -30,7 +31,7 @@ def get_sources():
     with urllib.request.urlopen(get_sources_url) as url:  # sending request as url
         # reading the response and storing in a get_sources_data variable
         get_sources_data = url.read()
-        # converting the JSON response to a Python dictionary
+        
         get_sources_response = json.loads(get_sources_data)
 
         sources_results = None
